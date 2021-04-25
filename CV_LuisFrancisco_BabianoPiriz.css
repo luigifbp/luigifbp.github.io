@@ -2,6 +2,13 @@
   box-sizing: inherit;
 }
 
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
 html{
 	box-sizing: border-box;
 }
@@ -46,7 +53,7 @@ hr{
 
 #nombre2{
 	color:#FFF;
-	font-size:25px;
+	font-size:2vw;
 }
 
 #miperfil{
@@ -57,6 +64,10 @@ hr{
 
 #cabecera{
 	position:relative;
+}
+
+.correo {
+	font-size:0.90vw;
 }
 
 #nombre {
